@@ -1,6 +1,6 @@
 import chicken from '../../assets/categories/chicken.jpg';
 import mutton from '../../assets/categories/mutton.jpg'; 
-import seaFood from '../../assets/productIcons/c.jpg';
+import seaFood from '../../assets/productIcons/SeaFoodIcon.jpg';
 import natukodi from '../../assets/productIcons/CountryChickenIcon.jpg';
 import kadaknath from '../../assets/productIcons/kadaknathIcon.jpg';
 import turkey from '../../assets/productIcons/turkeyIcon.jpg';
