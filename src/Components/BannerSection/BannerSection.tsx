@@ -5,8 +5,8 @@ import Autoplay from "embla-carousel-autoplay";
 import BannerOne from "../../assets/Banners/desktop/Banner1.png";
 import BannerTwo from "../../assets/Banners/desktop/Banner2.png";
 
-import BannerOneMob from "../../assets/Banners/mobile/Banner1.png";
-import BannerTwoMob from "../../assets/Banners/mobile/Banner2.png";
+import BannerOneMob from "../../assets/Banners/mobile/banner1.png";
+import BannerTwoMob from "../../assets/Banners/mobile/banner2.png";
 
 const desktopSlides = [BannerOne, BannerTwo, BannerOne];
 const mobileSlides = [BannerOneMob, BannerTwoMob, BannerOneMob];
