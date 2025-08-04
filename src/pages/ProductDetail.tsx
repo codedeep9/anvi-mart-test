@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getProductById, Product } from '../utils/mockData';
 import AddToCartBtn from '../Components/AddToCartBtn';
 import WishlistButton from '../Components/WishlistButton';
-
+import BackIcon from '../assets/icons/BackIcon.svg';
 const ProductDetail: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
   const navigate = useNavigate();
@@ -48,7 +48,7 @@ const ProductDetail: React.FC = () => {
               aria-label="Go back"
             >
               <img
-                src="/src/assets/icons/ArrowLeft.svg"
+                src={BackIcon}
                 alt="Back"
                 className="w-5 h-5"
               />

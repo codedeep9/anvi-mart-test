@@ -4,7 +4,7 @@ import { getProductsByCategory, Product } from '../utils/mockData';
 import { getCategoryByValue } from '../utils/categories/categories.helpers';
 import AddToCartBtn from '../Components/AddToCartBtn';
 import WishlistButton from '../Components/WishlistButton';
-
+import BackIcon from '../assets/icons/BackIcon.svg';
 const CategoryProducts: React.FC = () => {
   const { categoryValue } = useParams<{ categoryValue: string }>();
   const navigate = useNavigate();
@@ -53,7 +53,7 @@ const CategoryProducts: React.FC = () => {
               aria-label="Go back"
             >
               <img
-                src="/src/assets/icons/ArrowLeft.svg"
+                src={BackIcon}
                 alt="Back"
                 className="w-6 h-6"
               />

@@ -5,8 +5,7 @@ import type { RootState } from '../store';
 import { removeFromWishlist } from '../store/wishlistSlice';
 import { addToCart } from '../store/cartSlice';
 import AddToCartBtn from '../Components/AddToCartBtn';
-
-
+import BackIcon from '../assets/icons/BackIcon.svg';
 const Wishlist: React.FC = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -63,7 +62,7 @@ const Wishlist: React.FC = () => {
               aria-label="Go back"
             >
               <img
-                src="/src/assets/icons/ArrowLeft.svg"
+                src={BackIcon }
                 alt="Back"
                 className="w-5 h-5 sm:w-6 sm:h-6"
               />
